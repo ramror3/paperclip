@@ -1,0 +1,167 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+@import "bootstrap-sprockets";
+ @import "bootstrap";
+
+.container {
+    float: left;
+    width: 75%;
+    display: block;
+    height: auto;
+    margin-top: -5%;
+}
+.img2 {
+    /*width:80%;
+    height:618px;
+    float: right;
+    margin-top: 20%;
+    padding-left: 8%;
+    margin-right: -8%;*/
+/*
+margin-left: -35px;
+margin-right: -15px;*/
+
+max-width: 100%;
+height: auto; 
+display: inline-block;
+margin-top: 15%;
+margin-left: 30%;
+}
+
+.col-md-4 {
+    float: left;
+    right: 30px;
+}
+
+.col-md-4 img {
+    margin-top: 6%;
+
+}
+
+.border {
+    margin: 0 0 20px;
+    padding: 20px;
+    width: 350px;
+    text-align: center;
+     margin-top: 12%;
+   
+}
+
+#box {
+      border: 1px solid #e6e6e6;
+}
+
+#box1 {
+    border: 1px solid #e6e6e6; 
+      margin-top: -3%;
+}
+.font {
+    font-size: 17px;
+    line-height: 20px;
+    margin: 0 40px 10px;
+    text-align: center;
+        color: #999;
+    font-weight: 600;
+    }
+
+.btn-fb{
+    color: #fff;
+    background-color:#428bca;
+    width: 120%;
+}
+
+.form-group {
+
+    width: 90%;
+    padding-left: 10%;
+}
+.hr-sect {
+    display: flex;
+    flex-basis: 100%;
+    align-items: center;
+    color: rgba(0, 0, 0, 0.35);
+    margin: 8px 0px;
+}
+.hr-sect::before,
+.hr-sect::after {
+    content: "";
+    flex-grow: 3;
+    background: rgba(0, 0, 0, 0.35);
+    height: 1px;
+    font-size: 0px;
+    line-height: 0px;
+    margin: 0px 30px;
+}
+
+.checkbox {
+    font-size: 14px;
+    line-height: 20px;
+    margin: 0 40px 10px;
+    text-align: center;
+        color: #999;
+   /* font-weight: 600;*/
+
+}
+
+.apps {
+    margin-top: -2%;
+    padding-left: 12%;
+}
+.app {
+    width: 120px;
+    height: 40px;
+}
+
+.go {
+    width: 134.28px;
+    height: 40px;
+}
+
+/*.nav-pills {
+    float: right;
+    padding: 0;
+    width: 625.89px;
+    height: 25px;
+    margin-right: 16px;
+}*/
+
+.col-md-12  {
+    margin-top: 5%;
+    font-weight: bold;
+    font-size: 11px;
+    margin-left: 8%; 
+    /*padding-left: 5em;*/
+   /* white-space:pre;*/
+   display: -webkit-flex; 
+  word-spacing: -10%;
+   margin-bottom: 5%;
+
+}
+
+.col-md-12 .nav a{
+    color: #003569;
+}
+
+.col-md-12 p {
+    float: right;
+    margin-top: 10px;
+    font-size: 12px;
+    /*font-weight: bold;*/
+   /*  word-spacing: 20%;*/
+     margin-right: -15%;
+      color: #999;
+
+}
